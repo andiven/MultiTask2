@@ -1,0 +1,38 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.2.4",
+	"FriendlyName": "Multi Task 2",
+	"Description": "Multi Task 2 enables multi-threading in Blueprints in the fastest, cleanest and the most efficient way.",
+	"Category": "Multi-Threading",
+	"CreatedBy": "SC Pug Life Studio S.R.L.",
+	"CreatedByURL": "https://puglifestudio.com",
+	"DocsURL": "https://www.puglifestudio.com/multitask2doc",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/1fba130154404a098733c41c8f47a817",
+	"SupportURL": "https://discord.yakistudios.com",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "MultiTask2",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64",
+				"Mac",
+				"Linux"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ProceduralMeshComponent",
+			"Enabled": true
+		},
+		{
+			"Name": "GeometryProcessing",
+			"Enabled": true
+		}
+	]
+}
